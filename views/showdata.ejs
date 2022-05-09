@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DATA | WEBSITE</title>
+    <link rel="stylesheet" href="show.css">
+</head>
+<body>
+    <div class="card">
+        <table>
+            <tr>
+                <th>NUMBER</th>
+                <th>REWARD</th>
+            </tr>
+            <% number.forEach(function(item) { %>
+            <tr>
+                <td><%= item.number %></td>
+                <td><%= item.reward %></td>
+            </tr>
+            <% }) %>
+        </table>
+        <button type="button"><a href='/'>Back</a></button>
+        <button type="button"><a href='/addnumber'>ADD Number</a></button>
+        <button type="button"><a href='/check'>Check</a></button>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*{
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+    margin:0;
+    padding:0;
+}
+.Profile{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #575554;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-left{
+    margin: 0 auto;
+    padding-top: 44px;
+    width: 400px;
+    text-align: center;
+    background-color: #f4ece6;
+    box-shadow: black 2px 10px 100px -40px;
+    
+}
+.set-img{
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin: 0 auto 37px auto;
+}
+.img{
+    width:100%;
+    height:100%;
+}
+.name{
+    font-weight: 700;
+    font-size: 32px;
+    color: #db894a;
+}
+.underline{
+    width: 50px;
+    height: 3px;
+    margin: 0 auto;
+    background: rgb(120,2,225);
+    margin-top: 25px;
+}
+.job{
+    margin-top: 25px;
+    letter-spacing: 0.25rem;
+    font-weight: 300;
+}
+.line-box{
+    margin-top: 120px;
+    margin-block-end: 0 auto;
+    background-color:rgb(170, 144, 106);
+}
+.line-box{
+    margin-top: 100px;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.title{
+    font-size: 100px;
+    font-weight: 700;
+}
+.subtitle{
+    font-size: 25px;
+}
+.detail{
+    margin-top: 50px;
+    line-height: 1.5rem;
+    font-size: 17px;
+    font-weight: 300;
+}
+.card-right{
+    margin: 0 auto;
+    padding-top: 34px;
+    padding-left: 30px;
+    padding-right: 20px;
+    width: 480px;
+    background-color: #fff;
+}
+.button{
+    width:130px;
+    height: 35px;
+    background: none;
+    border-radius: 24px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 38px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(120,2,225) ;
+    color: #fff;
+    border: 0.12rem solid rgb(120,2,225);
+}
+.button_active{
+    width:130px;
+    height: 35px;
+    background: none;
+    border-radius: 24px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 38px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+.button_active:hover{
+    background-color: rgb(120,2,225) ;
+    color: #fff;
+    border: 0.12rem solid rgb(120,2,225);
+}
+.line-box_r{
+    margin-top: 120px;
+    margin-block-end: 0 auto;
+    background-color:#fff;
+}
+.line-box_r{
+    margin-top: 42.6px;
+    padding: 20px 100px;
+    justify-content: space-around;
+    list-style-type: none;
+}

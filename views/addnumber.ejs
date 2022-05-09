@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD | WEBSITE</title>
+    <link rel="stylesheet" href="add.css">
+</head>
+<body>
+    <% if(typeof mesg != "undefined") { %>
+    <h1><%= mesg %></h1>
+    <% } %>
+    <form action="/addnumber" method="post"class="box" >
+        <div class="card">
+            <label>Data</label>
+            <input type="text" name="data" id="data" placeholder="d/m/y" class="c-1" > 
+        </div>
+        <div>
+            <label>Number</label>
+            <input type="text" name="number" id="number"placeholder="number" class="c-2" > 
+        </div>
+        <div>
+            <label>Reward</label>
+            <input type="text" name="Reward" id="reward" placeholder="reward" class="c-3"> 
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
